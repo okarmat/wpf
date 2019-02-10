@@ -6,8 +6,9 @@
         xmlns:local="clr-namespace:HelloWorldThinkgeo"
         xmlns:Wpf="clr-namespace:ThinkGeo.MapSuite.Wpf;assembly=ThinkGeo.MapSuite.Wpf" x:Class="HelloWorldThinkgeo.MainWindow"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525" Loaded="Window_Loaded" WindowState="Maximized">
+        Title="MainWindow" Height="611.232" Width="958.695" Loaded="Window_Loaded" WindowState="Maximized">
     <Grid>
-        <Wpf:WpfMap Name="WpfMap" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch"/>
+        <Wpf:WpfMap Name="WpfMap" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch" MouseMove="WpfMap_MouseMove" Margin="0,0,-8,69"/>
+        <TextBox Height="32" Margin="0,0,0,-1" Name="textBox1" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="250" />
     </Grid>
 </Window>
